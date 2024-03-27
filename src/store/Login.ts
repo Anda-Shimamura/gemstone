@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 
 import { ref,reactive } from "vue";
 //接口不能export
-//lastDate用于判断登陆时间，获取threenumber
+//lastDate用于判断登陆时间
 interface Logindata{
   showUsername: string,
   password: string,

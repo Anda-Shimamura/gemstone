@@ -39,7 +39,6 @@ onMounted(()=>{
       for(let item of response.data){
         top10.push(item)
       }
-      
     })
     
 })

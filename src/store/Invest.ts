@@ -11,7 +11,6 @@ export const useInvestStore = defineStore("Invest",()=>{
     let lastProfit = ref(0)
     //上次交易日期
     let lastInvested = ref("")
-    
 
     function updateInvest(sell:[],three:[],profit:number,day:string){
       lastSell.length = 0
@@ -20,10 +19,7 @@ export const useInvestStore = defineStore("Invest",()=>{
       for(let i of three)threeInversted.push(i)
       lastProfit.value = profit
       lastInvested.value = day
-      console.log(day,"day");
-      
+      console.log(day,"day"); 
     }
-    
-  
   return {lastSell,threeInversted,lastProfit,lastInvested,updateInvest}
 })

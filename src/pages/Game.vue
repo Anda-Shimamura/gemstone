@@ -86,7 +86,7 @@
     }
     let p = 600
     let profit = 0
-
+    //生成本次投资宝石价格
     function getSell(){
       //sell存储了本次交易价格
       sell[0] = 720
