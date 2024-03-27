@@ -30,7 +30,7 @@
       catsPics[i] = "/pictures/cats/00"+`${data.value.threeNum[i]}`+".png"
     }
     let paragraph = [
-      `宝石${data.value.threeNum[0]}收益的概率会变高喵！`,
+      `宝石${data.value.threeNum[0]}获得收益的概率会提高喵！`,
       `听我一言，宝石${data.value.threeNum[1]}还是不要买了喵`,
       `宝石${data.value.threeNum[2]}充满机遇&风险，适合赌徒喵！`,
     ]

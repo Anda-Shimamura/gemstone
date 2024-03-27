@@ -2,7 +2,7 @@
   <div>
     <header class="headerWrapper clearfix">
         <div class="leftHeader leftfix">
-          <img src="../assets/header/header_cat.png" alt="header_cat" class="leftfix clearfix">
+          <img src="/pictures/cats/header_cat.png" alt="header_cat" class="leftfix clearfix">
           <h1 class="leftfix">宝石投资!</h1>
         </div>
         <div class="headerButtons rightfix">
