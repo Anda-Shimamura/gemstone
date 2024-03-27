@@ -120,7 +120,7 @@
         break
         case(5):sell[4] = (getRandom(1)<=0.6?1.5:1.07)*p
         break
-        case(6):sell[5] = (getRandom(1)<=0.37?1:0)*p
+        case(6):sell[5] = (getRandom(1)<=0.37?1:0)*p+p
         break
       }
       //unlucky
@@ -134,7 +134,7 @@
         break
         case(5):sell[4] = (getRandom(1)<=0.8?1.07:1.5)*p
         break
-        case(6):sell[5] = (getRandom(1)<=0.15?1:0)*p
+        case(6):sell[5] = (getRandom(1)<=0.15?1:0)*p+p
         break
       }
       //处理风险宝石
