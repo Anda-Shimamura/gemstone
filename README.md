@@ -2,7 +2,9 @@
 
 一款基于Vue3，Node.js设计的网页小游戏，游戏玩法是通过购买宝石赚取利润，通过提示进行逻辑推理，投资收益期望更高的宝石以赚取更多金币。游戏提供了用户注册与登录、查看交易详情、用户排名等功能。  
 
-本项目包含前端部分，如您需要查阅后端部分，请参阅gemstone-backend仓库,测试服务器ip地址为192.168.0.102，如您需要在自己电脑上使用请修改。
+本项目包含前端部分，如您需要查阅后端部分，请参阅gemstone-backend仓库  
+
+测试服务器ip地址为192.168.0.102，如您需要请修改。  
 
 ## src文件介绍：
 
@@ -31,10 +33,6 @@
 
 后端：Node.js, Express, Mongo, Mongoose  
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
 
 ## Project Setup
 
@@ -54,6 +52,4 @@ npm run dev
 npm run build
 ```
 
-# 游戏玩法  
 
-在浏览器运行运行后，先按照提示注册用户，后续游玩需登录账户。由于每天只能投资一次，请仔细阅读讲解再进行投资喔~
