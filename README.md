@@ -6,11 +6,11 @@
 
 ## src文件介绍：
 
-Component:  
+### Component:  
 
   PageHeader.vue 页面头部组件  
   
-Pages:  
+### Pages:  
 
   PageMain.vue 页面主要内容路由组件，主要路由切换都在此组件中进行  
   
@@ -18,7 +18,7 @@ Pages:
   
   其他组件都是游戏相关组件 通过点击左侧边栏事件进行切换  
   
-Store(pinia仓库):  
+### Store(pinia仓库):  
 
   Login.ts 保存注册登录相关数据  
   
