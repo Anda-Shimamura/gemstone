@@ -172,7 +172,7 @@
       console.log("###"+threeInversted)
       console.log("###$"+showUsername.value)
 
-      axios.post('http://192.168.0.102:8000/invest',{
+      axios.post('http://localhost:8000/invest',{
         //bug！！！
         showUsername:showUsername.value,
         threeInversted,

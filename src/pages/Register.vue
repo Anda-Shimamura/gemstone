@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref,reactive } from 'vue';
+import { computed, ref,reactive, watch } from 'vue';
 import { useRoute,useRouter } from 'vue-router'
 import {useLoginStore} from '@/store/Login'
 import {useInvestStore} from '@/store/Invest'
@@ -43,7 +43,6 @@ let {isLogin,data} = storeToRefs(loginStore)
     defineProps(['isRegister'])
     const route = useRoute()
     const router = useRouter()
-
     //isRegister == 0 judge == true 登录,反之是注册
     let judge = computed({
         get(){
@@ -128,7 +127,7 @@ let {isLogin,data} = storeToRefs(loginStore)
             //登录请求
             if(judge.value){
                 try {
-                    axios.post('http://192.168.0.102:8000/login',{
+                    axios.post('http://localhost:8000/login',{
                         userInfo,
                     }).then((response)=>{
                         if(response.data === false){
@@ -145,7 +144,7 @@ let {isLogin,data} = storeToRefs(loginStore)
             //注册请求
             else{
                 try {
-                    axios.post('http://192.168.0.102:8000/register',{
+                    axios.post('http://localhost:8000/register',{
                         userInfo,
                     },).then((response)=>{
                         if(response.data === false){

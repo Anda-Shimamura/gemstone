@@ -1,4 +1,4 @@
-import { createRouter,createWebHistory } from "vue-router"
+import { createRouter,createWebHashHistory,createWebHistory } from "vue-router"
 // import Login from "@/pages/Login.vue"
 import Register from "@/pages/Register.vue"
 import Info from "@/pages/Info.vue"
@@ -9,7 +9,7 @@ import InvestRes from "@/pages/InvestRes.vue"
 import Rank from "@/pages/Rank.vue"
 
 const router = createRouter({
-    history:createWebHistory(), 
+    history:createWebHashHistory(), 
     routes:[
         {
             name:'Register',
