@@ -23,3 +23,4 @@ export const useLoginStore = defineStore("login",()=>{
   
   return {isLogin,data}
 })
+// former master branch has been changed.
