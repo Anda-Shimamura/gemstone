@@ -1,27 +1,14 @@
 <template>
   <div>
     
-        <div class="info" v-html="infoHtml">
-        </div>
-        <div class="imgbox">
-            <img src="/pictures/cats/007.png" alt="cat">
-            <img src="/pictures/gemstone/001.png" alt="gemstone" class="infogem">
-        </div>
-    
-  </div>
-</template>
-
-<script setup lang="ts">
-
-
-let infoHtml = `
+        <div class="info" >
             <h3>本游戏是一款投资策略游戏，您可以通过投资宝石赚取中间利润</h3>
             <p>
                 游戏玩法：
-                每天商城会上架六颗宝石，您每天可购入三颗宝石并将其售出，出售价每天会发生变化。
+                每天商城会上架六颗宝石，您每天可购入三颗宝石并将其售出
             </p>
             <p>
-                宝石买入价为600金币一颗，不同宝石具有不同的收益率，正常情况下收益率详情如下表所示。
+                宝石售价和收益率详情如下表所示。
             </p>
             <div class="tableWrapper ">
               <table class=" table1" border="1" cellspacing="0">
@@ -94,11 +81,22 @@ let infoHtml = `
             <p>
                 在初次游玩时，您拥有3000金币作为本金，每天购进宝石需要支付200金币作为交易税。
             </p>
-            `
+        </div>
+        <div class="imgbox">
+            <img src="/pictures/cats/007.png" alt="cat">
+            <img src="/pictures/gemstone/001.png" alt="gemstone" class="infogem">
+        </div>
+    
+  </div>
+</template>
+
+<script setup lang="ts">
+
 
 </script>
 
-<style>
+<style scoped>
+
 .info{
 text-align: center;
 }
